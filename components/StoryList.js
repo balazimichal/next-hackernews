@@ -10,6 +10,7 @@ const StoryList = ({ stories }) => (
         <Link href={`story?id=${story.id}`}>
         <a>{story.comments_count || 0} comments</a>
         </Link>
+        <strong>{story.id}</strong>
         </div>
       </div>
     ))}
