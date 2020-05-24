@@ -1,0 +1,20 @@
+{
+  "name": "Next Hacker",
+  "short_name": "next-hacker",
+  "lang": "en-GB",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#f60",
+  "icons": [
+    {
+      "src": "/public/icons/icon-512x512",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/public/icons/icon-192x192",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
