@@ -4,7 +4,8 @@
   "description": "A Hacker News clone made with Next.js",
   "main": "server.js",
   "scripts": {
-    "dev": "next",
+    "dev": "node server.js",
+    "start": "NODE_ENV=production node server.js",
     "build": "next build"
   },
   "author": "Michal Balazi",
